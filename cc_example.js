@@ -42,6 +42,19 @@ function sum3(x,y,z) {
     console.log(sum3(...numbers));
 
 
-    
+
     
 }
+
+
+// Task 3 
+
+let sales = [250, 400, 150, 900, 1200];
+function calculateTotalRevenue(sales) {
+
+    return sales.reduce((total, sale)=> total + sale, 0);
+    
+}
+
+
+console.log(calculateTotalRevenue(sales));
